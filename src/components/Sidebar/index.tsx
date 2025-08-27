@@ -1,13 +1,9 @@
 import {
-  FileQuestion,
   LayoutDashboard,
   LogOutIcon,
-  MessageCircle,
   ParkingMeter,
   Scale3DIcon,
-  SoapDispenserDroplet,
   Speaker,
-  Ticket,
 } from "lucide-react";
 import React, { type ReactNode } from "react";
 import NavItem from "./NavItem";

@@ -1,4 +1,4 @@
-import { Cross, CrossIcon, X } from "lucide-react";
+import {  X } from "lucide-react";
 import React, { type ReactNode } from "react";
 
 interface indexInterface {

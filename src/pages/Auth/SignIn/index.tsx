@@ -2,7 +2,7 @@ import React from "react";
 import { Input, Button } from "../../../components";
 import { userLogin } from "../../../services";
 import toast from "react-hot-toast";
-import { Navigate, useNavigate } from "react-router";
+import {  useNavigate } from "react-router";
 
 interface indexInterface {
   // Define your interface properties here

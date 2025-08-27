@@ -2,9 +2,6 @@ import React, { useState } from "react";
 import DashboardLayout from "../../layout/dashboardLayout";
 import { Check, Eye, Trash2 } from "lucide-react";
 import { Table } from "../../components/common/Table";
-import AddEvent from "../../components/modal/AddEvent";
-import AddSpeaker from "../../components/modal/AddSpeaker";
-import AddPartner from "../../components/modal/AddPartner";
 import AddMagzine from "../../components/modal/AddMagzine";
 import TableHeader from "../../components/common/TableHeader";
 
@@ -207,7 +204,7 @@ const initialData: DataRow[] = [
   },
 ];
 const Magzine: React.FC<SpeakerInterface> = () => {
-  const [data, setData] = useState<DataRow[]>(initialData);
+  const [data, _] = useState<DataRow[]>(initialData);
   const [selectedIds, setSelectedIds] = useState<number[]>([]);
   const [isModalShow, setIsModalShow] = useState(false);
   const handleCheckboxChange = (id: number) => {

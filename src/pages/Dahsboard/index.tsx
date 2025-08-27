@@ -6,7 +6,6 @@ interface DashboardInterface {
   // Define your interface properties here
 }
 
-const cardData = [{}];
 
 const Dashboard: React.FC<DashboardInterface> = () => {
   return (

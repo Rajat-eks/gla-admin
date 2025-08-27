@@ -1,8 +1,6 @@
 import React from "react";
 import ModalLayout from "../../../layout/modalLayout";
 import { useForm } from "react-hook-form";
-import type { ISPEAKER } from "../../../interface/speaker/speaker.interface";
-import { createSpeaker } from "../../../services";
 import toast from "react-hot-toast";
 import { uploadFile } from "../../../services/upload/upload.service";
 import type { IPARTNER } from "../../../interface/partner/partner.interafce";

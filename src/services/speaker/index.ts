@@ -1,4 +1,3 @@
-import type { IPARTNER } from "../../interface/partner/partner.interafce";
 import type { ISPEAKER } from "../../interface/speaker/speaker.interface";
 import { extractErrorMessage } from "../../utils/errorHandler";
 import axiosObject from "../axios.config";

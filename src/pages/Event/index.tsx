@@ -26,26 +26,8 @@ interface DataRow {
   slug: string;
 }
 
-const Status = ({ status }: { status: string }) => {
-  const color =
-    status.toLowerCase() === "pending"
-      ? "bg-yellow-500"
-      : status.toLowerCase() === "deleted"
-      ? "bg-red-600"
-      : "bg-green-600";
 
-  return <span className={`h-3 w-3 ${color} rounded-full inline-block mr-2`} />;
-};
-const Security = ({ status }: { status: string }) => {
-  const color =
-    status.toLowerCase() === "medium"
-      ? "bg-yellow-500"
-      : status.toLowerCase() === "high"
-      ? "bg-red-600"
-      : "bg-green-600";
 
-  return <span className={`h-3 w-3 ${color} rounded-full inline-block mr-2`} />;
-};
 
 const columns: TableColumn<DataRow>[] = [
   {

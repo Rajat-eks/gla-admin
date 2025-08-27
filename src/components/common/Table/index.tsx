@@ -1,5 +1,4 @@
 import React from "react";
-import TableHeader from "../TableHeader";
 import Pagination from "../Pagonation";
 
 export interface TableColumn<T> {
