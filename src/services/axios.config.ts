@@ -1,7 +1,7 @@
 import * as axios from "axios";
 
 let axiosObject = axios.default.create();
-axiosObject.defaults.baseURL = "http://localhost:8080/api/v1/";
+axiosObject.defaults.baseURL = "https://api.globallegalassociation.org/api/v1/";
 // axiosObject.defaults.baseURL = process.env.REACT_APP_BASE_URL;
 axiosObject.defaults.timeout = 12000;
 axiosObject.defaults.headers.common = {
