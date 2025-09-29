@@ -1,9 +1,11 @@
 import {
+  AlignEndVertical,
   LayoutDashboard,
   LogOutIcon,
   ParkingMeter,
   Scale3DIcon,
   Speaker,
+  Ticket,
 } from "lucide-react";
 import React, { type ReactNode } from "react";
 import NavItem from "./NavItem";
@@ -51,18 +53,18 @@ const navMenu: I_NAVMENU[] = [
   //   icon: <SoapDispenserDroplet />,
   //   path: "/sponsor",
   // },
-  // {
-  //   item: "Registeration",
-  //   children: [], // array is valid now
-  //   icon: <Ticket />,
-  //   path: "/registeration",
-  // },
-  // {
-  //   item: "Enquiry",
-  //   children: [], // array is valid now
-  //   icon: <FileQuestion />,
-  //   path: "/enquiry",
-  // },
+  {
+    item: "Registeration",
+    children: [], // array is valid now
+    icon: <Ticket />,
+    path: "/registeration",
+  },
+  {
+    item: "Agenda",
+    children: [], // array is valid now
+    icon: <AlignEndVertical />,
+    path: "/enquiry",
+  },
   // {
   //   item: "Magzine",
   //   children: [], // array is valid now
@@ -73,9 +75,9 @@ const navMenu: I_NAVMENU[] = [
 
 const Sidebar: React.FC<SidebarInterface> = () => {
   return (
-    <div className=' flex flex-col  justify-between h-[90%]'>
+    <div className=" flex flex-col  justify-between h-[90%]">
       <section>
-        <ul className='space-y-2'>
+        <ul className="space-y-2">
           {navMenu?.map((item, index) => {
             return (
               <li>
@@ -87,7 +89,7 @@ const Sidebar: React.FC<SidebarInterface> = () => {
       </section>
       <Link
         to={"/"}
-        className='flex items-center p-2 text-[15px] gap-4 text-gray-600 font-semibold border-t-[1px]'
+        className="flex items-center p-2 text-[15px] gap-4 text-gray-600 font-semibold border-t-[1px]"
       >
         <LogOutIcon /> Logout
       </Link>

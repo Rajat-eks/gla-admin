@@ -24,6 +24,10 @@ const TableHeader: React.FC<TableHeaderInterface> = ({
       label: "DUBAI CONCODIUM 2025",
       value: "CONDUBAI2025",
     },
+    {
+      label: "MALAYSIA  2026",
+      value: "MALAYSIA2026",
+    },
   ]);
   return (
     <nav className="flex items-center justify-between p-4">

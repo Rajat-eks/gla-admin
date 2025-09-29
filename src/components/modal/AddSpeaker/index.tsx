@@ -30,6 +30,10 @@ const AddSpeaker: React.FC<AddEventInterface> = ({
       label: "DUBAI CONCODIUM 2025",
       value: "CONDUBAI2025",
     },
+    {
+      label: "MALAYSIA  2026",
+      value: "MALAYSIA2026",
+    },
   ]);
 
   const {

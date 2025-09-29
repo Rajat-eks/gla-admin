@@ -8,6 +8,8 @@ import Partner from "./pages/Partner";
 import Sponsor from "./pages/Sponsor";
 import Magzine from "./pages/Magzine";
 import { Toaster } from "react-hot-toast";
+import Registeration from "./pages/Registeration";
+import Agenda from "./pages/Agenda";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
         <Route path="/partner" element={<Partner />} />
         <Route path="/sponsor" element={<Sponsor />} />
         <Route path="/magzine" element={<Magzine />} />
+        <Route path="/registeration" element={<Registeration />} />
+        <Route path="/agenda" element={<Agenda />} />
       </Routes>
     </>
   );
