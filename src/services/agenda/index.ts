@@ -1,6 +1,5 @@
 import type { 
-  IAgenda, 
-  IAgendaSession, 
+
   ICreateAgendaSession, 
   IUpdateAgendaSession 
 } from "../../interface/agenda/agenda.interface";

@@ -1,4 +1,3 @@
-import type { IREGISTERATION } from "../../components/modal/AddRegisteration";
 import { extractErrorMessage } from "../../utils/errorHandler";
 import axiosObject from "../axios.config";
 
